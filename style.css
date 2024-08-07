@@ -69,7 +69,7 @@ body {
   /* background-image: url(img/bg-prewed.jpg); */
   background-size: cover;
   background-position: center;
-  background-color: rgba(40, 38, 38, 0.748);
+  /* background-color: rgba(40, 38, 38, 0.748); */
   z-index: -1;
   filter: grayscale();
 }
@@ -195,8 +195,7 @@ body {
 .info h2,
 .gallery h2,
 .rsvp h2,
-.gifts h2,
-.penutup h2 {
+.gifts h2 {
   color: white;
   font-family: "Saudagar";
   font-size: 3rem;
@@ -483,6 +482,7 @@ body {
 .rsvp {
   padding-top: 10rem;
   padding-bottom: 8rem;
+  background-image: url(img/AdatJawaPattern1.webp);
   background-color: var(--telang) !important;
 }
 .gallery {
@@ -506,7 +506,7 @@ body {
 }
 .story span {
   text-transform: uppercase;
-  color: var(--blue);
+  color: var(--telang);
   font-size: 0.9rem;
   letter-spacing: 1px;
   display: block;
@@ -693,16 +693,23 @@ body {
   background-color: #c8c2ae;
   /* background-color: white; */
   backdrop-filter: blur(15px);
-  background-image: url(img/AdatJawaPattern1.webp);
-  padding-top: 5rem;
-  padding-bottom: 4rem;
+  /* background-image: url(img/AdatJawaPattern1.webp); */
+  padding: 4rem;
   font-family: Batusa;
   /* margin: 10px; */
   /* border-radius: 2vh; */
 }
 
+.penutup .ungkapan {
+  background-color: var(--bw);
+  background-image: url(img/AdatJawaPattern1.webp);
+  padding: 3rem;
+  padding-top: 5rem;
+  border-radius: 2vh;
+}
+
 .penutup .ungkapan h5 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   /* margin: 4rem; */
   color: #666666;
   padding: 2rem;
@@ -721,14 +728,19 @@ body {
   margin-bottom: 1rem;
 }
 
-.penutup h4 {
-  color: #666666;
-  margin: 2rem;
+.penutup h2 {
+  color: #292929;
+  font-family: Saudagar;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  /* margin-top: 2rem; */
 }
 
 .penutup p {
   color: #292929;
   font-family: Batusa;
+  padding: 2rem;
 }
 
 .penutup p span {
@@ -740,7 +752,7 @@ body {
   /* font-weight: bolder; */
   color: #292929;
   font-weight: bolder;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 footer {
