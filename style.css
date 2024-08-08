@@ -70,7 +70,7 @@ body {
   /* background-image: url(img/bg-prewed.jpg); */
   background-size: cover;
   background-position: center;
-  /* background-color: rgba(40, 38, 38, 0.748); */
+  background-color: rgba(40, 38, 38, 0.164);
   z-index: -1;
   filter: grayscale();
 }
@@ -746,6 +746,7 @@ body {
 
 .penutup p span {
   font-weight: bold;
+  font-family: Batusa;
 }
 
 .penutup h1 {
@@ -789,7 +790,7 @@ footer li {
 .audio-icon-wrapper .btn {
   width: 4rem;
   height: 4rem;
-  font-size: 2rem;
+  font-size: 3rem;
   position: fixed;
   bottom: 2.5rem;
   right: 2rem;
